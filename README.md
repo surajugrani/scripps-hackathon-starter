@@ -2,7 +2,7 @@
 
 **Scripps Research CBB Hackathon 2026 · May 29 – June 1 · La Jolla**
 
-In silico ligand screening for **Siglec-6** using multi-method protein–ligand cofolding, interaction analysis, and docking. The full pipeline — from structure prediction to experimental Kd correlation — was built and run over 4 days.
+Predicting where a library of 14 Siglec-6 ligands bind using multi-method protein–ligand cofolding, interaction analysis, and docking. The full pipeline — from structure prediction to experimental Kd correlation — was built and run over 4 days.
 
 > *This README was generated entirely by [Claude](https://claude.ai/claude-code) (Anthropic).*
 
