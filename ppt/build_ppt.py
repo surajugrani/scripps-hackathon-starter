@@ -281,9 +281,9 @@ def slide_pipeline(prs):
         (BOLTZ_CLR,  "Boltz-2",
          "Open-source  ·  AWS EC2 g5.xlarge\nDocker  ·  GPU  ·  ColabFold MSA input"),
         (AF3A_CLR,   "AlphaFold3  (AF3-MSA)",
-         "AF3 server  ·  built-in MSA search\nAutomated MSA pipeline"),
+         "Garibaldi HPC  ·  built-in MSA search\nAutomated MSA pipeline"),
         (AF3B_CLR,   "AlphaFold3  (ColabFold-MSA)",
-         "AF3 server  ·  pre-computed MSA\nSame MSA as Boltz-2 input"),
+         "Garibaldi HPC  ·  pre-computed MSA\nSame MSA as Boltz-2 input"),
     ]
 
     method_centers = []
@@ -616,10 +616,10 @@ def slide_methods(prs):
           "Input: FASTA protein + SMILES ligand + ColabFold .a3m MSA"]),
 
         (AF3A_CLR, "Cofolding — AlphaFold3",
-         ["Version: AF3 web server (alphafoldserver.com), May 2025",
+         ["Compute: Garibaldi HPC (Scripps Research)",
           "Condition 1 (AF3-MSA): AF3 built-in MSA pipeline",
           "Condition 2 (AF3-ColabFold): pre-computed MSA from ColabFold (same as Boltz-2)",
-          "42 jobs total (14 ligands × 3 methods)"]),
+          "28 jobs total (14 ligands × 2 AF3 conditions)"]),
 
         (SCORE_CLR, "MSA / Sequence",
          ["ColabFold MSA server (mmseqs2): pre-computed .a3m for Siglec-6",
