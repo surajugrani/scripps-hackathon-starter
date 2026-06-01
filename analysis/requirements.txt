@@ -1,0 +1,21 @@
+# Analysis pipeline dependencies
+# Install with: pip3 install -r analysis/requirements.txt
+
+# Step 1 — confidence parsing (stdlib only, no extra deps)
+
+# Step 2 — interaction fingerprints
+prolif
+mdanalysis
+rdkit
+
+# Step 3 — Vina preparation and RMSD
+rdkit          # already listed above
+biopython
+numpy
+
+# AutoDock Vina binary: install separately
+#   sudo apt-get install -y autodock-vina
+#   OR: pip3 install vina  (Python bindings, includes binary)
+
+# OpenBabel (for PDBQT conversion): install separately
+#   sudo apt-get install -y openbabel

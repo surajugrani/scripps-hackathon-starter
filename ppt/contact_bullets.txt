@@ -1,0 +1,35 @@
+CONTACT ANALYSIS — SLIDE BULLET POINTS
+=======================================================
+
+● Consistent hot-spot residues (all 3 methods agree):
+  LYS124, TYR130, GLY131, TYR132
+
+● Method-specific hot-spots:
+  Boltz-2: LEU19, THR40, VAL41, GLN42, CYS46, VAL47, LEU48, TYR66, PHE68, ASN79, LEU96, TRP97, ASP98, PRO99, ARG100, ARG122, LYS129, THR133, VAL171
+  AF3 (AF3-MSA): GLU28, LEU57, PRO58, SER60, TYR61, TYR62, GLY63, TYR64, LEU123, SER125, LYS126, TRP127, MET128
+  AF3 (ColabFold-MSA): GLN27, GLU28, PHE31, GLN32, LEU33, LEU53, PRO54, LEU57, TYR61, TYR62, LEU123, SER125, TRP127, MET128, LYS129
+
+● Compounds with CONSISTENT binding mode across methods
+  (Jaccard similarity of top-5 contacted residues ≥ 0.40):
+  none
+  (avg similarity: {})
+
+● Compounds with DIVERGENT binding modes across methods
+  (Jaccard similarity < 0.20 — pose varies by method):
+  cpd_1, cpd_4, cpd_7, cpd_12, cpd_9, cpd_13, cpd_11, cpd_8, cpd_3, cpd_5, cpd_6, cpd_2, cpd_10
+
+● Boltz-2 binding clusters identified:
+  Cluster A (hydrophobic pocket): cpd_1, cpd_3, cpd_6, cpd_7, cpd_8, cpd_9
+             Key residues: LEU48, CYS46, VAL47, VAL171
+  Cluster B (charged/aromatic): cpd_2, cpd_4, cpd_5, cpd_11, cpd_13
+             Key residues: ARG122, LYS129, TYR130, PHE68
+
+● AF3 (both conditions) consistently predicts TRP127, TYR61, TYR62,
+  TYR130, MET128 as the primary binding face — aromatic/Trp-rich pocket
+
+● Sialic acid (natural ligand control) contacts a DISTINCT binding site
+  in all 3 methods — no overlap with synthetic analog hot-spots:
+  Boltz-2:  ARG147, GLU227, HIS146, THR225, MET226 (polar-rich, sequence ~144–229)
+  AF3:      ARG113, ARG114, ASN116 (consistent between both AF3 conditions)
+  → Synthetic analogs may be targeting a different sub-pocket than the
+    natural carbohydrate ligand — or predictions for sa are uncertain

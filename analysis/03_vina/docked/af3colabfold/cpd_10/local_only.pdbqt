@@ -1,0 +1,47 @@
+REMARK  Name = analysis/03_vina/inputs/af3colabfold/cpd_10/ligand_pose.pdb
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C1_2  and  C3_5
+REMARK    2  A    between atoms: N1_3  and  C2_4
+REMARK    3  A    between atoms: C3_5  and  C4_6
+REMARK    4  A    between atoms: C6_8  and  C7_9
+REMARK    5  A    between atoms: C8_10  and  C9_11
+REMARK    6  A    between atoms: C15_18  and  N3_19
+REMARK    7  A    between atoms: C16_20  and  C17_21
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C4  LIG B   1      39.115  15.757  25.230  0.00  0.00    +0.002 A 
+ATOM      2  C5  LIG B   1      39.662  15.264  26.418  0.00  0.00    -0.002 A 
+ATOM      3  C6  LIG B   1      41.008  15.479  26.695  0.00  0.00    +0.001 A 
+ATOM      4  C13 LIG B   1      41.812  16.173  25.820  0.00  0.00    +0.001 A 
+ATOM      5  C14 LIG B   1      41.271  16.679  24.637  0.00  0.00    +0.016 A 
+ATOM      6  C15 LIG B   1      39.935  16.462  24.339  0.00  0.00    +0.070 A 
+ENDROOT
+BRANCH   3   7
+ATOM      7  C7  LIG B   1      41.571  14.985  27.945  0.00  0.00    +0.015 A 
+ATOM      8  C8  LIG B   1      42.156  13.725  28.047  0.00  0.00    -0.019 A 
+ATOM      9  C9  LIG B   1      42.265  12.800  26.868  0.00  0.00    +0.031 C 
+ATOM     10  C10 LIG B   1      42.658  13.319  29.295  0.00  0.00    +0.016 A 
+ATOM     11  C11 LIG B   1      42.557  14.171  30.383  0.00  0.00    +0.099 A 
+ATOM     12  N2  LIG B   1      41.981  15.403  30.255  0.00  0.00    -0.242 NA
+ATOM     13  C12 LIG B   1      41.510  15.780  29.072  0.00  0.00    +0.099 A 
+ENDBRANCH   3   7
+BRANCH   6  14
+ATOM     14  N3  LIG B   1      39.413  16.985  23.165  0.00  0.00    -0.180 N 
+ATOM     15  C16 LIG B   1      39.324  16.318  21.983  0.00  0.00    +0.246 C 
+ATOM     16  C17 LIG B   1      38.632  16.994  20.862  0.00  0.00    +0.097 C 
+ATOM     17  O2  LIG B   1      39.794  15.224  21.851  0.00  0.00    -0.273 OA
+ATOM     18  H   LIG B   1      39.080  17.911  23.189  0.00  0.00    +0.000 HD
+ENDBRANCH   6  14
+BRANCH   1  19
+ATOM     19  C3  LIG B   1      37.662  15.478  24.942  0.00  0.00    +0.114 C 
+BRANCH  19  21
+ATOM     20  O1  LIG B   1      36.745  16.954  26.553  0.00  0.00    -0.273 OA
+ATOM     21  C1  LIG B   1      36.802  16.620  25.402  0.00  0.00    +0.246 C 
+ATOM     22  N1  LIG B   1      36.166  17.241  24.458  0.00  0.00    -0.203 N 
+ATOM     23  C2  LIG B   1      35.312  18.388  24.767  0.00  0.00    +0.139 C 
+ATOM     24  H   LIG B   1      36.259  16.939  23.526  0.00  0.00    +0.000 HD
+ENDBRANCH  19  21
+ENDBRANCH   1  19
+TORSDOF 4

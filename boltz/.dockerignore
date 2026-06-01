@@ -1,0 +1,4 @@
+inputs/
+batch/
+__pycache__/
+*.pyc
